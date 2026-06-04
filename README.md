@@ -76,3 +76,15 @@ java -jar junit-platform-console-standalone.jar --class-path out --scan-class-pa
 | `1-8`   | Número de minas en casillas vecinas  |
 | `F`     | Bandera (casilla marcada por jugador)|
 | `X`     | Mina (al perder se revelan todas)    |
+
+## Ejemplo de tablero
+
+```
+  Minas restantes: 9
+      1  2  3  4  5  6  7  8  9 10
+    -------------------------------
+ A |  V  V  1  ·  ·  ·  ·  ·  ·  ·
+ B |  V  V  1  ·  ·  ·  ·  ·  ·  ·
+ C |  1  1  2  ·  ·  ·  ·  ·  ·  ·
+ D |  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
+```
