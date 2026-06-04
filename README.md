@@ -88,3 +88,22 @@ java -jar junit-platform-console-standalone.jar --class-path out --scan-class-pa
  C |  1  1  2  ·  ·  ·  ·  ·  ·  ·
  D |  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
 ```
+
+## Principios aplicados
+
+- **DRY** — toda la persistencia centralizada en `GestorArchivos`
+- **MVC** — separación clara: `model/`, `view/`, `controller/`
+- **Encapsulamiento** — todos los atributos privados con getters/setters
+- **Herencia** — `CasillaYaDescubiertaException` y `CoordenadaInvalidaException` extienden `BuscaminasException`
+- **TDD** — tests escritos antes de implementar cada clase
+
+## Autores
+
+| Nombre | GitHub |
+|--------|--------|
+| Evan López   | Patriciosegovia06 |
+| Gabriel Sambonino | SamboninoGabriel|
+| Joselin Chamba | Josh |
+| Jodan Llumiquinga | JLL-DEEp |
+|Patricio Segovia |evandevdroid |
+
