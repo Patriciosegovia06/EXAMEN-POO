@@ -58,3 +58,21 @@ java -cp out Main
 javac -cp junit-platform-console-standalone.jar -d out src/**/*.java test/**/*.java
 java -jar junit-platform-console-standalone.jar --class-path out --scan-class-path
 ```
+
+## Cómo jugar
+
+| Acción              | Comando      | Ejemplo  |
+|---------------------|--------------|----------|
+| Descubrir casilla   | `LetraNum`   | `A5`     |
+| Marcar/desmarcar    | `M LetraNum` | `M B3`   |
+| Guardar partida     | `G`          |          |
+| Salir al menú       | `S`          |          |
+
+### Símbolos del tablero
+| Símbolo | Significado                          |
+|---------|--------------------------------------|
+| `·`     | Casilla cubierta (no revelada)       |
+| `V`     | Casilla vacía sin minas alrededor    |
+| `1-8`   | Número de minas en casillas vecinas  |
+| `F`     | Bandera (casilla marcada por jugador)|
+| `X`     | Mina (al perder se revelan todas)    |
