@@ -1,4 +1,4 @@
-package model;
+package modelo;
 
 /**
  * Enum que representa el estado visible de una casilla para el jugador.
